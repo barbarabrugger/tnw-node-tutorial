@@ -1,0 +1,8 @@
+curl -X POST -H 'content-type:application/json' -d '{"description":"Improve error handling"}' http://localhost:3000/note-todo
+
+###
+
+curl 'http://localhost:3000/todos'
+
+###
+curl -X POST 'http://localhost:3000/mark-todo-as-done/3ebabbb7-4d1e-4232-b42c-f3c7543a0802'
